@@ -38,6 +38,12 @@ Create a new folder on the target machine, and copy following files into this fo
 * config.toml
 
 ## Run
+On Linux and Mac systems, the default max open file limit on Linux/Mac may not be enough for a Conflux node. So before running a node, make sure that you increase the number of open file descriptors allowed for each process. It's suggested to set the value to 10000. You can set this by running
+```bash
+ulimit -n 10000
+```
+ on the command line window before continuing.
+
 Running node via:
 
 ```bash
