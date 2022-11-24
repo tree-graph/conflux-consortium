@@ -1,5 +1,5 @@
-# TreeGraph
-TreeGraph consortium blockchain is a rust-based implementation of tree-graph BFT protocol, it uses innovative consensus algorithm and ledger structure to achieve high throughtput and low latency.
+# Conflux Consortium BlockChain
+Conflux consortium blockchain is a rust-based implementation of tree-graph BFT protocol, it uses innovative consensus algorithm and ledger structure to achieve high throughtput and low latency.
 
 The main components are tree-graph layer and consensus layer.
 
@@ -19,4 +19,4 @@ See [FAQ.md](FAQ.md) for the most common troubleshoot questions.
 See [RPC.md](RPC.md) for RPC methods usage.
 
 ## Issue
-If you have a bug or an idea, thank you for firing an [issue](https://github.com/tree-graph/treegraph-release/issues) here.
+If you have a bug or an idea, thank you for firing an [issue](https://github.com/tree-graph/conflux-consortium/issues) here.

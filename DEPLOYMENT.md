@@ -1,7 +1,7 @@
-# Deploy TreeGraph
+# Deploy Conflux Consortium BlockChain
 
 ## Download pre-built binaries
-Download pre-built binaries from [release](https://github.com/tree-graph/treegraph-release/releases) page on the GitHub repository.
+Download pre-built binaries from [release](https://github.com/tree-graph/conflux-consortium/releases) page on the GitHub repository.
 
 On the ``release`` page, after selecting the corresponding platform, you can click the link to download the zip package. Unzip the package:
 
