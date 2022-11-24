@@ -44,6 +44,8 @@ Running node via:
 nohup ./conflux_production --customized-config customized_config.toml &
 ```
 
+This will start the node and begin progress epoches.
+A new directory tree_graph_node will be created in the current working directory to keep the persistent data. Please do not remove them unless data are corrupt or you want to start a fresh new node.
 
 ## Check status
 check conflux_production is running:
@@ -57,7 +59,5 @@ After all nodes are started, check the latest epoch is growing via rpc or logs.
 ```bash
 curl -X POST --data '{"jsonrpc":"2.0","method":"cfx_epochNumber","params":[],"id":1}' -H "Content-Type: application/json" localhost:$PORT
 ```
-
-A new directories tree_graph_node will be created in the current working directory to keep the persistent data. Please do not remove them unless data are corrupt or you want to start a fresh new node.
 
 Logs are in directory tree_graph_node/logs
