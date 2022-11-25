@@ -1,11 +1,7 @@
 # Conflux Consortium BlockChain
-Conflux consortium blockchain is a rust-based implementation of tree-graph BFT protocol, it uses innovative consensus algorithm and ledger structure to achieve high throughtput and low latency.
+We are pleased to annouce that the Conflux Condortium Blockchain release is arrived. Conflux consortium is permissioned version of Conflux public blockchain. It employs an innovative consensus algorithm combining tree-graph block ledger and BFT protocol to achieve high throughtput and low latency.
 
-The main components are tree-graph layer and consensus layer.
-
-In general, the tree-graph layer generates blocks, sync blocks, and finally organizes blocks into a tree-graph structure through reference relationship between blocks.
-
-The consensus layer selects pivot blocks in the tree-graph structure and form a pivot chain. Based the pivot chain, the total order of all blocks are determined.
+The blocks are proposed in parallel by participant nodes and form a tree-graph structure, while the BFT protocol is used to decide the pivot block of each tree-graph epoch. This way, the processes of block generation and block ordering are pipelined. This minimizes the negative effect of BFT latency on system throughput. The following figure illustrates the process.
 
 ![1](./image/tree-graph.jpg)
 
