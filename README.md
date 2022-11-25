@@ -7,7 +7,9 @@ In general, the tree-graph layer generates blocks, sync blocks, and finally orga
 
 The consensus layer selects pivot blocks in the tree-graph structure and form a pivot chain. Based the pivot chain, the total order of all blocks are determined.
 
-![1](./image/consensus.png)
+![1](./image/tree-graph.jpg)
+
+See [consensus.md](consensus.md) for more about consensus.
 
 ## Deployment
 See [DEPLOYMENT.md](DEPLOYMENT.md) for deployment steps.
