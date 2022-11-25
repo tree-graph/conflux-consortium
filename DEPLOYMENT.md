@@ -23,8 +23,7 @@ Generate certificates and configure files (parameter format for nodes: $IP:$PORT
 
 A folder start with ``Config_`` will be created in current directory:
 
-* ``root, intermediate, rpc, server``: they are certificates, keep them permanently. The certs chain like:
-
+* ``root, intermediate, rpc, server``: they are certificates, keep them permanently. The certs chain like:  
 ![1](./image/cert.png)
 
 * ``IP_PORT/config.toml``: folders named by IP_PORT contain specific configuration file for each node.
@@ -32,10 +31,10 @@ A folder start with ``Config_`` will be created in current directory:
 
 ## Copy files to target location
 Create a new folder on the target machine, and copy following files into this folder:
-* conflux_production
-* customized_config.toml
-* log.yaml
-* config.toml
+* ``conflux_production``
+* ``customized_config.toml``
+* ``log.yaml``
+* ``config.toml`` different for each node.
 
 ## Run
 On Linux and Mac systems, the default max open file limit on Linux/Mac may not be enough for a Conflux node. So before running a node, make sure that you increase the number of open file descriptors allowed for each process. It's suggested to set the value to 10000. You can set this by running
